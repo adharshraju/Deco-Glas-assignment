@@ -274,3 +274,78 @@ body
         font-weight: 500;
     }
 }
+
+/* Fourth section drinks */
+
+.drinks
+{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.drinks .image-row
+{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    gap: 10px;
+}
+
+.image-row .drink-image
+{
+    position: relative;
+}
+
+.image-row .drink-image img
+{
+    max-width: 100%;
+}
+
+.image-row .drink-image h3
+{
+    width: 100%;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+@media (max-width: 800px)
+{
+    .drinks
+    {
+        margin: 40px 0;
+        padding: 0 30px;
+    }
+
+    .drinks .image-row
+    {
+        flex-wrap: wrap;
+    }
+
+    .image-row .drink-image
+    {
+        min-width: none;
+        width: 159px;
+        height: 360px;
+    }
+
+    .image-row .drink-image img
+    {
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .image-row .drink-image h3
+    {
+        font-size: 18px;
+        top: 80%;
+    }
+
+}
