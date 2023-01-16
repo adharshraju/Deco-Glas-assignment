@@ -203,3 +203,69 @@ body
         top: 94%;
     }
 }
+
+
+/* Third section intro */
+
+.intro
+{
+    width: 100%;
+}
+
+.intro-contents
+{
+    width: 66.66%;
+    max-width: 870px;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.intro .intro-contents h2
+{
+    font-size: 40px;
+    font-weight: 550;
+    max-width: 800px;
+    line-height: 1.1;
+    margin-bottom: 44px;
+    text-align: center;
+}
+
+.intro .intro-contents p
+{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 26px;
+}
+
+.intro .intro-contents h3
+{
+    font-size: 28px;
+    font-weight: 550;
+    line-height: 1.1;
+    margin: 40px 0 24px;
+}
+
+@media (max-width: 800px)
+{
+    .intro
+    {
+        padding: 0 16px;
+    }
+
+    .intro-contents
+    {
+        width: 100%;
+    }
+
+    .intro .intro-contents h2
+    {
+        font-size: 32px;
+        font-weight: 500;
+    }
+
+    .intro .intro-contents h3
+    {
+        font-weight: 500;
+    }
+}
