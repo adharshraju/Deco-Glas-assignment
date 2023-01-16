@@ -466,3 +466,102 @@ body
         top: 70%;
     }
 }
+
+
+/* Eighth section our promise  */
+
+.promise-section
+{
+    width: 100%;
+}
+
+.promise-contents
+{
+    display: flex;
+    max-height: 660px;
+}
+
+.promise-contents .left img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.promise-contents .right
+{
+    padding: 200px 0;
+}
+
+.promise-contents .right .right-size
+{
+    width: 55%;
+    margin-left: 100px;
+}
+
+.promise-contents .right h2
+{
+    font-size: 40px;
+    margin-bottom: 44px;
+    font-weight: 500;
+}
+
+.promise-contents .right p
+{
+    font-size: 17px;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+.promise-contents .right button
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 14px 18px;
+    color: #fff;
+    background-color: #000;
+    border: 0;
+    font-size: 14px;
+}
+
+.promise-contents .right button iconify-icon
+{
+    margin-left: 32px;
+}
+
+
+@media (max-width: 800px)
+{
+    .promise-contents
+    {
+        flex-direction: column;
+    }
+
+    .promise-contents .left img
+    {
+        min-height: 360px;
+        object-fit: cover;
+    }
+
+    .promise-contents .right
+    {
+
+        padding: 0 20px;
+        margin-left: 0;
+
+    }
+
+    .promise-contents .right .right-size
+    {
+        width: 100%;
+        margin-left: 0;
+        padding: 60px 0 40px;
+
+    }
+
+    .promise-contents .right h2
+    {
+        font-size: 33px;
+    }
+}
