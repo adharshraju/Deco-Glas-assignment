@@ -40,11 +40,6 @@ body
     align-items: center;
 }
 
-.main-header ul
-{
-    margin-right: 250px;
-}
-
 .main-header ul li
 {
     display: inline-block;
